@@ -46,6 +46,7 @@ nav-links li a {
 
 nav a:hover {
     color: cadetblue;
+    transition: all 0.3s ease 0s;
 }
 
 button {
@@ -62,4 +63,14 @@ button {
 
 button:hover {
     background-color: rgba(0, 136, 169, 0.8);
+}
+
+.banner-home {
+    height: 300px;
+    background-color: cadetblue;
+    background-image: url(https://www.stockvault.net/data/2013/11/16/150806/preview16.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
 }
