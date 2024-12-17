@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 li,
@@ -22,6 +24,15 @@ header {
     padding: 30px 5%;
     background-color: #fff;
 
+}
+
+h1 {
+    font-size: xxx-large;
+    font: weight 5px;
+}
+
+.page-header p {
+    padding: 30px;
 }
 
 .logo {
@@ -52,7 +63,7 @@ nav a:hover {
 button {
     margin-left: 20px;
     padding: 9px 25px;
-    color:#fff;
+    color: #fff;
     background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 50px;
@@ -65,12 +76,26 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
-.banner-home {
-    height: 300px;
+.page-header {
+    height: 50vh;
+    background-size: cover;
     background-color: cadetblue;
-    background-image: url(https://www.stockvault.net/data/2013/11/16/150806/preview16.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
-    background-size: cover;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.vertical-center {
+    align-self: center;
+}
+
+#home {
+    background-image: url("https://www.stockvault.net/data/2013/11/16/150806/preview16.jpg");
 }
