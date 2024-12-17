@@ -99,3 +99,31 @@ button:hover {
 #home {
     background-image: url("https://www.stockvault.net/data/2013/11/16/150806/preview16.jpg");
 }
+
+.dive-type-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 5rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+.dive-type-box {
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#wreck {
+    background-image: url("https://images.pexels.com/photos/10391701/pexels-photo-10391701.jpeg");
+}
+
+#reef {
+    background-image: url("https://images.pexels.com/photos/668790/pexels-photo-668790.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
